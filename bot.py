@@ -152,7 +152,8 @@ def start_bot(bot, update):
 			time.sleep(1)
 			bot.send_message(chat_id=update.message.chat_id, text=Text.RETARD)
 	
-def main():
+def 
+        main():
 	updater = Updater(token=TOKEN, workers = 8)
 	dispatcher = updater.dispatcher
 	start_cmd = CommandHandler("start" , start)
